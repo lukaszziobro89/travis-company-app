@@ -3,6 +3,7 @@ sudo: false
 script: mvn clean verify
 deploy:
   provider: heroku
+  skip_cleanup: true
   api_key:
     secure: ffb23d34-3a99-426f-a139-80d703cbd614
   app: travis-company-app
