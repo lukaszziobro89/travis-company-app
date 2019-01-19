@@ -1,0 +1,10 @@
+language: java
+sudo: false
+script: mvn clean verify
+deploy:
+  provider: heroku
+  api_key:
+    secure: 
+  app: lukaszziobro89-travis-demo
+  on:
+    repo: lukaszziobro89/travis-test-app
