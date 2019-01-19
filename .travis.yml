@@ -4,7 +4,7 @@ script: mvn clean verify
 deploy:
   provider: heroku
   api_key:
-    secure: 
+    secure: ffb23d34-3a99-426f-a139-80d703cbd614
   app: lukaszziobro89-travis-demo
   on:
     repo: lukaszziobro89/travis-test-app
