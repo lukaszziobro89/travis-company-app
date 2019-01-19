@@ -11,7 +11,7 @@
 </head>
 <body>
 <h2>
-    SPRING JSP - check
+    SPRING JSP - checks
 </h2>
 <%--<p style="text-align:center;">--%>
     <%--<img src="${pageContext.request.contextPath}/resources/images/spring_logo.png"/>--%>
