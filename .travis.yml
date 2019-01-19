@@ -5,6 +5,6 @@ deploy:
   provider: heroku
   api_key:
     secure: ffb23d34-3a99-426f-a139-80d703cbd614
-  app: lukaszziobro89-company-app
+  app: travis-company-app
   on:
     repo: lukaszziobro89/travis-company-app
