@@ -1,1 +1,1 @@
- web:    java $JAVA_OPTS -jar target/company-app/resources/webapp-runner.jar --port $PORT target/*.war
+ web:    java $JAVA_OPTS -jar target/company-app/WEB-INF/webapp-runner.jar --port $PORT target/*.war

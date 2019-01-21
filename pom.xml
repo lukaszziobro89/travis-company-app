@@ -206,6 +206,14 @@
       <version>0.9.1.2</version>
     </dependency>
 
+      <!-- https://mvnrepository.com/artifact/com.github.jsimone/webapp-runner -->
+      <dependency>
+          <groupId>com.github.jsimone</groupId>
+          <artifactId>webapp-runner</artifactId>
+          <version>8.5.23.0</version>
+      </dependency>
+
+
   </dependencies>
 
   <build>
@@ -225,7 +233,7 @@
                   <artifactItem>
                     <groupId>com.github.jsimone</groupId>
                     <artifactId>webapp-runner</artifactId>
-                    <version>9.0.13.0</version>
+                    <version>8.5.23.0</version>
                     <destFileName>webapp-runner.jar</destFileName>
                   </artifactItem>
                 </artifactItems>
